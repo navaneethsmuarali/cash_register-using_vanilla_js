@@ -1,15 +1,19 @@
 body {
     padding-top: 10%;
+    width: auto;
+    height: auto;
 }
 
 .main_div {
     display: flex;
     flex-direction: column;
+    width: 800px;
     text-align: center;
     padding: 2rem;
     border: 1px;
     border: solid;
     border-radius: 18px;
+    margin-left: 500px;
 }
 
 button {
