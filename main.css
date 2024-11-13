@@ -1,0 +1,65 @@
+body {
+    padding-top: 10%;
+}
+
+.main_div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    border: 1px;
+    border: solid;
+    border-radius: 18px;
+}
+
+button {
+    width: 90px;
+    text-align: center;
+    border: none;
+    background-color: rgb(80, 79, 79);
+    border-radius: 8px;
+    color: aliceblue;
+    height: 40px;
+}
+
+.main_div {
+    background-color: rgb(159, 163, 163);
+    color: aliceblue;
+}
+
+#bill_amount {
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+    height: 40px;
+}
+
+#cash_given {
+    border: none;
+    border-radius: 5px;
+    width: max-content;
+    height: 40px;
+}
+
+.table_1 {
+    table-layout: auto;
+    border: 1px;
+    border: solid;
+    color: rgb(119, 134, 129);
+}
+
+.table_1 th {
+    background-color: #8d8d8d;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.table_1 td {
+    background-color: #8d8d8d;
+    color: white;
+}
+
+.table_1 caption {
+    color: white;
+    padding: 1rem;
+}
